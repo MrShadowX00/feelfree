@@ -1,0 +1,26 @@
+User:
+    id
+    username
+    name
+    email
+    bio
+    avatar
+Topic:
+    id
+    name
+Message:
+    id  
+    user
+    room
+    body
+    created_at
+    updated_at
+Room:
+    isOpen
+    host
+    Topic
+    name
+    participients
+    describtion
+    updated_at
+    created_at
